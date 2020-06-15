@@ -13,5 +13,5 @@ Instead I have included what I believe are the most important files to the proje
 
 Short contents:
 1. APICall.py - the first file I created in order to download the data that we wanted to use.
-2. LSTMRNNClass - contains the blueprint for restructuring the data and then creating and training an LSTM RNN
-3. 
+2. LSTMRNNClass.py - contains the blueprint for restructuring the data and then creating and training an LSTM RNN
+3. LSTMGraphs.py - code for graphing the results from the model and comparing to other sources.
