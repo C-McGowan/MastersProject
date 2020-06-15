@@ -3,9 +3,7 @@ Hyper-Local Weather Forecasting Using Artificial Neural Networks
 
 This project had many different looks throughout the 6 months that I worked on it.
 
-The first term (October - Dec) mainly was used to formulate ideas for the direction of the project, and then to extract and download the data.
-
-The second term I then got to experiment with artificial neural networks.
+The first term (October - Dec) mainly was used to formulate ideas for the direction of the project, and then to extract and download the data. Then, during the second term I created various artificial neural networks in order to create predictions and compare them to DarkSky results for a weather station located in Durham. 
 
 I haven't included many of the obsolete files, as they were mainly trying to graph the data that was collected or were older versions that were more specific (e.g. the LSTMRNNClass file used to be a larger pain to change and got a bit spaghetti like, so I recoded it so that the the neural network was in a class, with the idea that I could in the future use a genetic algorithm on it). 
 
