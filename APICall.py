@@ -39,7 +39,7 @@ def apiForecastGridDS(latitudes, longitudes):
     dataDump(data, target_file)
 
 def apiForecastRequestMO():
-    """Pulls a api request from the desired point specified in MOID variable and dumps into json file with timestamp"""
+    """Pulls an api request from the desired point specified in MOID variable and dumps into json file with timestamp"""
     url_forecast = f"http://datapoint.metoffice.gov.uk/public/data/val/wxfcs/all/json/{MOID}?res=3hourly&key={apiKeyMO}"
     unix_time = f"{time.time():0f}"
     target_file = f"MOForecastData{unix_time}.json"
