@@ -9,7 +9,7 @@ There were many files that were created that are now obsolete and so are not inc
 
 Instead I have included what I believe are the most important files to the project, whereby you could take them and replicate my work with the same data.
 
-Short contents:
-1. APICall.py - the first file I created in order to download the data that we wanted to use.
+# Short contents:
+1. APICall.py - the first file I created in order to download the data that I wanted to use.
 2. LSTMRNNClass.py - contains the blueprint for restructuring the data and then creating and training an LSTM RNN
 3. LSTMGraphs.py - code for graphing the results from the model and comparing to other sources.
